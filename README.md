@@ -1,7 +1,6 @@
-
 ## Android-Bluetooth-Transfer-Test ##
 
-![github](http://github.com/unicorn.png "github")
+![github](https://raw.github.com/hkmung/Android-Bluetooth-Transfer-Test/master/display.jpg)
 
 
 This is a android bluetooth transfer test,
