@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="black">#000000</drawable>
+  <drawable name="red">#FF0000</drawable>
+    
+  <drawable name="color_e3e3e3">#E3E3E3</drawable>
+  <drawable name="color_dbdbdb">#DBDBDB</drawable>
+  <drawable name="color_ededed">#EDEDED</drawable>
+  <drawable name="color_d3d3d3">#D3D3D3</drawable>
+  <drawable name="color_a9b2b8">#A9B2B8</drawable>
+  <drawable name="color_2580c7">#2580C7</drawable>
+  
+  <drawable name="color_0169c8">#0169C8</drawable>  
+  <drawable name="color_7adcf7">#7ADCF7</drawable>
+  <drawable name="color_bec6cd">#BEC6CD</drawable>
+
+  
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bluetooth.transfertest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" 
+    />
+
+    
+	<!-- 權限 : 重啟自動執行 -->
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+	
+ 	<!-- 權限 : 寫入SD卡 -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+  	<!-- 權限 : 在SDCard中創建與刪除文件權限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    
+    
+    <!-- 權限 : 上網連線 -->
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <!-- 權限 : 藍芽 -->
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 權限 : 藍芽控制/可見性 -->
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />	
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+	
+	
+	
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme" >
+        
+	        <activity
+	            android:name="com.bluetooth.transfertest.BluetoothCheck"
+	            android:label="@string/app_name" 
+	        >
+					<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.LAUNCHER" />
+	            	</intent-filter>   
+	        </activity>	        
+
+	        <activity
+	            android:name="com.bluetooth.transfertest.Main"
+	            android:screenOrientation="portrait"
+	            android:label="@string/app_name" >
+	        </activity>
+	        
+	        
+    </application>
+
+</manifest>
