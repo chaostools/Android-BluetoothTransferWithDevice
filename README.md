@@ -38,3 +38,11 @@ Server_Address is a server phone bluetooth address
 Change your photo 
 
 
+
+		protected static long load_speeds = 500;
+		
+		
+And Change send photo speeds
+
+
+		
